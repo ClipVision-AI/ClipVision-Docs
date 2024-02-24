@@ -13,7 +13,7 @@
         "version": "v1"
     },
     "servers": [{
-        "url": "http://cli.clipvision.ai/"
+        "url": "https://cli.clipvision.ai/"
     }],
     "security": [{
         "Basic": []
@@ -3722,7 +3722,7 @@
         },
         "securitySchemes": {
             "Basic": {
-                "type": "http",
+                "type": "https",
                 "scheme": "basic"
             }
         }
