@@ -127,5 +127,11 @@
         "twitter": "https://twitter.com/@ClipVisionAI",
         "github": "https://github.com/ClipVision-AI",
         "linkedin": "https://www.linkedin.com/company/98724871/"
+    },
+    "api": {
+        "auth": {
+            "method": "key",
+            "name": "User-JWT"
+        }
     }
 }
