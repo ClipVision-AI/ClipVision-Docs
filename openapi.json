@@ -16,7 +16,7 @@
         "url": "https://cli.clipvision.ai/"
     }],
     "security": [{
-        "Basic": []
+        "UserJWTAuth": []
     }],
     "paths": {
         "/api/available_plans/": {
@@ -10544,9 +10544,10 @@
             }
         },
         "securitySchemes": {
-            "Basic": {
-                "type": "http",
-                "scheme": "basic"
+            "UserJWTAuth": {
+                "type": "apiKey",
+                "in": "header",
+                "name": "User-JWT"
             }
         }
     },
